@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {"id": "Ned Stark", "group": 1, "color": "#0000ff", "sigil": "stark.jpeg"},
+    {"id": "Catlyn Stark", "group": 1, "color": "#0000ff", "sigil": "stark.jpeg"},
+    {"id": "Rob Stark", "group": 1, "color": "#0000ff", "sigil": "stark.jpeg"},
+    {"id": "Bran Stark", "group": 1, "color": "#0000ff", "sigil": "stark.jpeg"},
+    {"id": "Arya Stark", "group": 1, "color": "#0000ff", "sigil": "stark.jpeg"},
+    {"id": "Sansa Stark", "group": 1, "color": "#0000ff", "sigil": "stark.jpeg"},
+    {"id": "Rickon Stark", "group": 1, "color": "#0000ff", "sigil": "stark.jpeg"},
+    {"id": "Tywin Lannister", "group": 2, "color": "#ff0000"},
+    {"id": "Cersei Lannister", "group": 2, "color": "#ff0000"},
+    {"id": "Jamie Lannister", "group": 2, "color": "#ff0000"},
+    {"id": "Tyrion Lannister", "group": 2, "color": "#ff0000"},
+    {"id": "Joffrey Lannister", "group": 2, "color": "#ff0000"},
+    {"id": "Tommen Lannister", "group": 2, "color": "#ff0000"},
+    {"id": "Myrcella Lannister", "group": 2, "color": "#ff0000"}
+  ],
+  "links": [
+    {"source": "Ned Stark", "target": "Catlyn Stark", "value": 1},
+    {"source": "Ned Stark", "target": "Rob Stark", "value": 1},
+    {"source": "Ned Stark", "target": "Bran Stark", "value": 1},
+    {"source": "Ned Stark", "target": "Sansa Stark", "value": 1},
+    {"source": "Ned Stark", "target": "Arya Stark", "value": 1},
+    {"source": "Ned Stark", "target": "Rickon Stark", "value": 1},
+    {"source": "Catlyn Stark", "target": "Rob Stark", "value": 1},
+    {"source": "Catlyn Stark", "target": "Bran Stark", "value": 1},
+    {"source": "Catlyn Stark", "target": "Sansa Stark", "value": 1},
+    {"source": "Catlyn Stark", "target": "Arya Stark", "value": 1},
+    {"source": "Catlyn Stark", "target": "Rickon Stark", "value": 1},
+    {"source": "Tywin Lannister", "target": "Cersei Lannister", "value": 1},
+    {"source": "Tywin Lannister", "target": "Jamie Lannister", "value": 1},
+    {"source": "Tywin Lannister", "target": "Tyrion Lannister", "value": 1},
+    {"source": "Cersei Lannister", "target": "Jamie Lannister", "value": 1},
+    {"source": "Cersei Lannister", "target": "Joffrey Lannister", "value": 1},
+    {"source": "Cersei Lannister", "target": "Myrcella Lannister", "value": 1},
+    {"source": "Cersei Lannister", "target": "Tommen Lannister", "value": 1},
+    {"source": "Jamie Lannister", "target": "Joffrey Lannister", "value": 1},
+    {"source": "Jamie Lannister", "target": "Myrcella Lannister", "value": 1},
+    {"source": "Jamie Lannister", "target": "Tommen Lannister", "value": 1}
+  ]
+}
