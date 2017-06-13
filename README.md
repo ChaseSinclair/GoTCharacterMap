@@ -1,24 +1,10 @@
-# README
+# GoTCharacterMap
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A d3 force directed graph showing relationships between Game of Thrones characters. Written in Ruby on Rails using React.js components.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##### Run project locally
+1. `git clone https://github.com/ChaseSinclair/GoTCharacterMap.git`
+1. `cd GoTCharacterMap`
+1. `webpack -w`
+1. `rails s`
+1. Navigate to http://localhost:3000/map
